@@ -1,0 +1,384 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(./fonts/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url(./fonts/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./fonts/Montserrat-Bold.otf');
+}
+@font-face {
+  font-family: 'ExodusDemo-Stencil';
+  src: url(./fonts/ExodusDemo-Stencil.otf);
+}
+.primary-font {
+  font-family: Montserrat;
+}
+.primary-font-bold {
+  font-family: Montserrat-bold;
+}
+.primary-font-medium {
+  font-family: Montserrat-Regular;
+}
+.heading-font {
+  font-family: ExodusDemo-Stencil;
+}
+.flex-wrapper {
+  display: flex;
+}
+a:hover {
+  border-bottom: solid 4px #2effb5;
+}
+.center-wrap-horizontal {
+  justify-content: center;
+}
+.center-wrap-vertical {
+  align-items: center;
+}
+.introduction-container {
+  background-color: #5d5c5e;
+  height: 470px;
+}
+.navigation-bar {
+  padding-top: 3%;
+  justify-content: space-between;
+}
+.navigation-bar-elements {
+  position: relative;
+  justify-content: flex-end;
+}
+.top-icon {
+  width: 52px;
+  height: 51px;
+  object-fit: contain;
+  margin-left: 5%;
+  vertical-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-description {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  vertical-align: center;
+}
+.home-nav {
+  margin-right: 30px;
+}
+.about-us-nav {
+  margin-right: 23.4px;
+}
+.elements-nav {
+  margin-right: 25.8px;
+}
+.faq-nav {
+  margin-right: 25.8px;
+}
+.sign-up-link {
+  color: #2effb5;
+  text-decoration: none;
+}
+.button-primary-boundary {
+  width: 133.1px;
+  height: 45px;
+  border-radius: 100px;
+  border: solid 1px #2effb5;
+  float: right;
+  margin-right: 35px;
+}
+.introduction-message {
+  margin-top: 8%;
+  height: 0px;
+  font-size: 36px;
+  letter-spacing: 4.5px;
+  text-align: left;
+  color: white;
+}
+.introduction-description {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.button-secondary-boundary {
+  width: 170px;
+  height: 45px;
+  border-radius: 100px;
+  background-color: #2effb5;
+}
+.secondary-button {
+  width: 119px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #4a4a4a;
+  text-align: center;
+  text-decoration: none;
+}
+.past-description-container {
+  background-color: #f2f2f2;
+  margin-bottom: 0px;
+  height: 600px;
+}
+.past-description-heading {
+  font-size: 32px;
+  font-weight: 600px;
+  letter-spacing: 4px;
+  text-align: left;
+  color: #757575;
+  margin-bottom: 7px;
+  text-align: center;
+}
+.past-description-body {
+  height: 17px;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+  margin-top: 1px;
+}
+.card {
+  height: 370px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+  margin-right: 1%;
+}
+.card-panel {
+  margin-top: 49px;
+  margin-left: 7%;
+  margin-right: 7%;
+  position: relative;
+}
+.judge-panel-container {
+  background-color: white;
+  height: 529px;
+}
+.footer-container {
+  background-color: #f9f9f9;
+  height: 270px;
+}
+.footer {
+  width: 100%;
+  justify-content: space-around;
+}
+.footer-container-header {
+  width: 162px;
+  height: 10px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #757575;
+}
+.footer-container-description {
+  width: 194.9px;
+  height: 66px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+  display: inline-block;
+}
+.outer-circle-card {
+  width: 100px;
+  height: 100px;
+  border: solid 1px #dddddd;
+  border-radius: 100px;
+  position: relative;
+  top: 40px;
+  margin-bottom: 44px;
+}
+
+.inner-circle-card {
+  width: 90px;
+  height: 90px;
+  border: solid 1px #dddddd;
+  border-radius: 100px;
+  background-color: #2effb5;
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+.outer-circle-judge-panel {
+  width: 80px;
+  height: 80px;
+  border: solid 1px #dddddd;
+  border-radius: 100px;
+  left: 130px;
+  top: 40px;
+}
+.inner-circle-judge-panel {
+  width: 70px;
+  height: 70px;
+  border: solid 1px #dddddd;
+  border-radius: 100px;
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+.member-card {
+  margin-top: 30px;
+}
+#judges-line {
+  height: 0px;
+  border: solid 1px #dddddd;
+  background-color: #dddddd;
+  margin-top: 44px;
+}
+.information-panel {
+  width: 549px;
+  height: 44px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: center;
+  color: #757575;
+  margin-top: 52px;
+}
+.copy-3 {
+  margin-top: 36.1px;
+}
+#footer-line {
+  height: 0px;
+  border: solid 1px #dddddd;
+  background-color: #dddddd;
+  margin-top: 35px;
+}
+.Judge1 {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+.thumbnail {
+  width: 42.5px;
+  height: 23.5px;
+  object-fit: contain;
+  position: relative;
+  margin-top: 33px;
+  margin-left: 23px;
+}
+.container-heading {
+  width: 80%;
+  height: 29px;
+  font-family: Montserrat;
+  font-size: 24px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #757575;
+  object-fit: contain;
+  margin-left: 9%;
+}
+.container-description {
+  width: 80%;
+  height: 88px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+  margin-left: 15%;
+}
+.members {
+  justify-content: space-evenly;
+}
+.exit-panel {
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+}
+.social-media-icons {
+  margin-right: 5%;
+}
+.social-images {
+  width: 31px;
+  height: 30px;
+  object-fit: contain;
+  margin-left: 9%;
+}
+.copyright {
+  margin-left: 2%;
+}
+.member-heading {
+  height: 24px;
+  font-size: 20px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #757575;
+  width: 100%;
+}
+.member-description {
+  height: 22px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.57;
+  letter-spacing: 1.8px;
+  text-align: left;
+  color: #757575;
+}
+.member-information {
+  flex-direction: column;
+  justify-content: space-around;
+}
+.message-container {
+  margin-bottom: 30px;
+}
+.left-arrow {
+  width: 20px;
+  height: 10.9px;
+  object-fit: contain;
+}
+.arrow {
+  margin-top: 13%;
+}
+.outer-circle-arrow-left {
+  height: 50px;
+  width: 50px;
+  background-color: #f9f9f9;
+  border-radius: 50%;
+  display: inline-block;
+  top: 45%;
+  left: 0px;
+  margin-left: -25px;
+  position: absolute;
+}
+.outer-circle-arrow-right {
+  height: 50px;
+  width: 50px;
+  background-color: #dddddd;
+  border-radius: 50%;
+  display: inline-block;
+  top: 45%;
+  left: 0px;
+  margin-left: 96%;
+  position: absolute;
+}
