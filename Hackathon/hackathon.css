@@ -353,6 +353,8 @@ li a {
   margin-bottom: 30px;
 }
 .left-arrow {
+  margin-left: 28%;
+  margin-top: 25%;
   width: 20px;
   height: 10.9px;
   object-fit: contain;
@@ -379,6 +381,6 @@ li a {
   display: inline-block;
   top: 45%;
   left: 0px;
-  margin-left: 96%;
+  margin-left: 97%;
   position: absolute;
 }
